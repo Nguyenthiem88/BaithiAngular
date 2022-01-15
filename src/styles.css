@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #222222;
+  text-align: left;
+  background-color: #eeeeee;
+}
+.container{
+  float: none;
+  width: 800px;
+  margin: 0 auto;
+}
+.content{
+  float: left;
+  width: 100%;
+  background-color: white;
+  margin: 100px auto;
+}
+.content .entry{
+  height: 500px;
+  float: none;
+  width: 70%;
+  background-color: white;
+  margin: 50px 120px ;
+}
+.td1{
+  background-color:royalblue;
+  width: 560px;
+  float: left;
+  height: 80px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+h1{
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+  line-height: 1;
+}
+h2{
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.nut1{
+  font-size: 20px;
+  color: white;
+}
+.nut2{
+  background-color: #0e9f0e;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 15px;
+}
+
+th {
+  background-color: white;
+  padding: 10px;
+  font-size: 16px;
+  border:1px royalblue solid ;
+}
+td {
+  border: 1px royalblue solid;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+}
+button{
+  margin: 5px;
+  height: 35px;
+}
+
+
+
+
